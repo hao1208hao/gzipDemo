@@ -16,7 +16,6 @@
 		A034D75D1D8948E900943E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A034D75B1D8948E900943E7B /* LaunchScreen.storyboard */; };
 		A034D7671D894C0B00943E7B /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = A034D7661D894C0B00943E7B /* NSData+GZIP.m */; };
 		A034D7701D8E796A00943E7B /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A034D76F1D8E796A00943E7B /* libz.1.2.5.tbd */; };
-		A04F75D91D8FAD3C00B3A631 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A04F75D81D8FAD3C00B3A631 /* GTMBase64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +35,6 @@
 		A034D7651D894C0B00943E7B /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
 		A034D7661D894C0B00943E7B /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
 		A034D76F1D8E796A00943E7B /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
-		A04F75D71D8FAD3C00B3A631 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		A04F75D81D8FAD3C00B3A631 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		A04F75DA1D8FADC400B3A631 /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,8 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				A04F75DA1D8FADC400B3A631 /* GTMDefines.h */,
-				A04F75D71D8FAD3C00B3A631 /* GTMBase64.h */,
-				A04F75D81D8FAD3C00B3A631 /* GTMBase64.m */,
 				A034D7651D894C0B00943E7B /* NSData+GZIP.h */,
 				A034D7661D894C0B00943E7B /* NSData+GZIP.m */,
 			);
@@ -256,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A034D7671D894C0B00943E7B /* NSData+GZIP.m in Sources */,
-				A04F75D91D8FAD3C00B3A631 /* GTMBase64.m in Sources */,
 				A034D7551D8948E900943E7B /* ViewController.m in Sources */,
 				A034D7521D8948E900943E7B /* AppDelegate.m in Sources */,
 				A034D74F1D8948E900943E7B /* main.m in Sources */,
